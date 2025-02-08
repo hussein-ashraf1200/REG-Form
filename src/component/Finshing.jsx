@@ -25,7 +25,7 @@ const Finshing = () => {
         {/* info */}
         <div
           className="flex flex-col relative
-         sm:pl-20 -translate-x-10 pl-2 pt-14  sm:w-3/4"
+         sm:pl-20 sm:-translate-x-10 -translate-x-0  pl-2 pt-14  sm:w-3/4"
         >
           <div className="flex flex-col justify-center items-start w-full">
             <h1
