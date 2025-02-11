@@ -33,7 +33,7 @@ const Infromation = () => {
           {/* input */}
           <div className="flex flex-col mt-8">
             <div className="flex items-start flex-col pt-4  ">
-              <p className="mb-1">Name</p>
+              <p className="mb-1 ">Name</p>
               <input
                 className=" w-[90%] rounded-lg border-2 border-solid font-sans 
                 text-[16px] text-[#000000] p-2 "
@@ -60,6 +60,15 @@ const Infromation = () => {
                 type="text"
                 placeholder="e.g. +1 234 567 890"
               />
+            </div>
+            <div className="bg-neutral-200 mt-4 rounded-2xl p-4">
+              <ul className="flex justify-end text-center flex-row space-x-7 decr ">
+                <li>on</li>
+                <li>on</li>
+                <li>on</li>
+                <li>on</li>
+                <li>on</li>
+              </ul>
             </div>
 
             {/* next button */}
